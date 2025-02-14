@@ -1,14 +1,12 @@
 # AWS Solution Clickstream Analytics SDK for Flutter
-[![clickstream-flutter-test](https://github.com/awslabs/clickstream-flutter/actions/workflows/test.yml/badge.svg)](https://github.com/awslabs/clickstream-flutter/actions/workflows/test.yml) [![clickstream-flutter-release](https://github.com/awslabs/clickstream-flutter/actions/workflows/release.yml/badge.svg)](https://github.com/awslabs/clickstream-flutter/actions/workflows/release.yml) [![clickstream-flutter-build-android](https://github.com/awslabs/clickstream-flutter/actions/workflows/build-android.yml/badge.svg)](https://github.com/awslabs/clickstream-flutter/actions/workflows/build-android.yml) [![clickstream-flutter-build-ios](https://github.com/awslabs/clickstream-flutter/actions/workflows/build-ios.yml/badge.svg)](https://github.com/awslabs/clickstream-flutter/actions/workflows/build-ios.yml) [![pub package](https://img.shields.io/pub/v/clickstream_analytics.svg)](https://pub.dev/packages/clickstream_analytics) [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
-
 
 ## Introduction
 
-Clickstream Flutter SDK can help you easily collect and report events from your mobile app to AWS. This SDK is part of an AWS solution - [Clickstream Analytics on AWS](https://github.com/awslabs/clickstream-analytics-on-aws), which provisions data pipeline to ingest and process event data into AWS services such as S3, Redshift.
+Clickstream Flutter SDK can help you easily collect and report events from your mobile app to AWS. This SDK is part of an AWS solution - [Clickstream Analytics on AWS](https://github.com/aws-solutions/clickstream-analytics-on-aws), which provisions data pipeline to ingest and process event data into AWS services such as S3, Redshift.
 
-The SDK relies on the [Clickstream Android SDK](https://github.com/awslabs/clickstream-android) and [Clickstream Swift SDK](https://github.com/awslabs/clickstream-swift). Therefore, flutter SDK also supports automatically collect common user events and attributes (e.g., session start, first open). In addition, we've added easy-to-use APIs to simplify data collection in Flutter apps.
+The SDK relies on the [Clickstream Android SDK](https://github.com/aws-solutions/clickstream-analytics-on-aws-android-sdk) and [Clickstream Swift SDK](https://github.com/aws-solutions/clickstream-analytics-on-aws-swift-sdk). Therefore, flutter SDK also supports automatically collect common user events and attributes (e.g., session start, first open). In addition, we've added easy-to-use APIs to simplify data collection in Flutter apps.
 
-Visit our [Documentation site](https://awslabs.github.io/clickstream-analytics-on-aws/en/latest/sdk-manual/flutter/) to learn more about Clickstream Flutter SDK.
+Visit our [Documentation site](https://aws-solutions.github.io/clickstream-analytics-on-aws/en/latest/sdk-manual/flutter/) to learn more about Clickstream Flutter SDK.
 
 ## Integrate SDK
 
@@ -287,3 +285,7 @@ See [CONTRIBUTING](CONTRIBUTING.md#security-issue-notifications) for more inform
 ## License
 
 This library is licensed under the [Apache 2.0 License](./LICENSE).
+
+## Anonymous operational metrics
+
+This solution collects anonymous operational metrics to help AWS improve the quality and features of the solution. For more information, including how to disable this capability, please see the [implementation guide](https://docs.aws.amazon.com/solutions/latest/clickstream-analytics-on-aws/solution-overview.html).

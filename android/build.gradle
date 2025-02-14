@@ -9,7 +9,7 @@ buildscript {
     }
 
     dependencies {
-        classpath 'com.android.tools.build:gradle:7.3.1'
+        classpath 'com.android.tools.build:gradle:8.2.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
     }
 }
@@ -29,7 +29,7 @@ android {
         namespace 'software.aws.solution.clickstream_analytics'
     }
 
-    compileSdkVersion 33
+    compileSdkVersion 34
 
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
@@ -46,13 +46,14 @@ android {
     }
 
     defaultConfig {
-        minSdkVersion 19
+        minSdkVersion 21
+        targetSdkVersion 34
     }
 
     dependencies {
         testImplementation 'org.jetbrains.kotlin:kotlin-test'
         testImplementation 'org.mockito:mockito-core:5.0.0'
-        implementation 'software.aws.solution:clickstream:0.14.0'
+        implementation 'software.aws.solution:clickstream:0.14.1'
         implementation(platform("org.jetbrains.kotlin:kotlin-bom:1.8.10"))
     }
 

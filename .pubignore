@@ -4,7 +4,12 @@ coverage
 build
 android/src/test
 ios/Clickstream/*
-!ios/Clickstream/Sources
+ios/.symlinks/*
 example/integration_test
 example/test
 release.sh
+# Files containing proprietary development and testing code - DO NOT PUBLISH:
+deployment
+buildspec.yml
+sonar-project.properties
+solution-manifest.yaml
