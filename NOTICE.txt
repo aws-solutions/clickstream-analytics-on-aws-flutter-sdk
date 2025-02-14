@@ -1,0 +1,57 @@
+Clickstream Analytics on AWS Flutter SDK
+
+Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
+Licensed under the Apache License Version 2.0 (the "License"). You may not use this file except
+in compliance with the License. A copy of the License is located at http://www.apache.org/licenses/
+or in the "license" file accompanying this file. This file is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, express or implied. See the License for the
+specific language governing permissions and limitations under the License.
+
+**********************
+THIRD PARTY COMPONENTS
+**********************
+
+This software includes third party software subject to the following copyrights:
+
+async under the BSD-3-Clause license.
+boolean_selector under the BSD-3-Clause license.
+characters under the BSD-3-Clause license.
+clock under the Apache-2.0 license.
+collection under the BSD-3-Clause license.
+fake_async under the Apache-2.0 license.
+flutter_lints under the BSD-3-Clause license.
+flutter_test under the BSD-3-Clause license.
+leak_tracker under the BSD-3-Clause license.
+leak_tracker_flutter_testing under the BSD-3-Clause license.
+leak_tracker_testing under the BSD-3-Clause license.
+lints under the BSD-3-Clause license.
+matcher under the BSD-3-Clause license.
+material_color_utilities under the Apache-2.0 license.
+meta under the BSD-3-Clause license.
+path under the BSD-3-Clause license.
+plugin_platform_interface under the BSD-3-Clause license.
+source_span under the BSD-3-Clause license.
+stack_trace under the BSD-3-Clause license.
+stream_channel under the BSD-3-Clause license.
+string_scanner under the BSD-3-Clause license.
+term_glyph under the BSD-3-Clause license.
+test_api under the BSD-3-Clause license.
+vector_math under the Zlib license.
+vm_service under the BSD-3-Clause license.
+clickstream_analytics under the Apache-2.0 license.
+cupertino_icons under the MIT license.
+file under the BSD-3-Clause license.
+fuchsia_remote_debug_protocol under the BSD-3-Clause license.
+platform under the BSD-3-Clause license.
+process under the BSD-3-Clause license.
+sync_http under the BSD-3-Clause license.
+webdriver under the Apache-2.0 license.
+
+********************
+OPEN SOURCE LICENSES
+********************
+
+Apache-2.0 - https://spdx.org/licenses/Apache-2.0.html
+BSD-3-Clause - https://spdx.org/licenses/BSD-3-Clause.html
+MIT - https://spdx.org/licenses/MIT.html
+Zlib - https://spdx.org/licenses/Zlib.html

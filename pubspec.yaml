@@ -1,7 +1,7 @@
 name: clickstream_analytics
 description: AWS Solution Clickstream Analytics SDK for Flutter
-version: 0.5.1
-homepage: https://github.com/awslabs/clickstream-flutter
+version: 0.5.2
+homepage: https://github.com/aws-solutions/clickstream-analytics-on-aws-flutter-sdk
 
 environment:
   sdk: '>=3.1.3 <4.0.0'

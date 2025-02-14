@@ -2,10 +2,10 @@ PODS:
   - Amplify (1.30.3):
     - Amplify/Default (= 1.30.3)
   - Amplify/Default (1.30.3)
-  - clickstream_analytics (0.5.0):
-    - clickstream_analytics/Clickstream (= 0.5.0)
+  - clickstream_analytics (0.5.2):
+    - clickstream_analytics/Clickstream (= 0.5.2)
     - Flutter
-  - clickstream_analytics/Clickstream (0.5.0):
+  - clickstream_analytics/Clickstream (0.5.2):
     - Amplify (= 1.30.3)
     - Flutter
     - GzipSwift (= 5.1.1)
@@ -39,12 +39,12 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Amplify: 516e5da5f256f62841b6bc659e1644bc999d7b6e
-  clickstream_analytics: 1e9d73b557c95920239e7746abddfb14f6fd55ff
+  clickstream_analytics: dc22b705e4c21bf364da595e2f1ac65eb78e44fa
   Flutter: e0871f40cf51350855a761d2e70bf5af5b9b5de7
   GzipSwift: 893f3e48e597a1a4f62fafcb6514220fcf8287fa
-  integration_test: ce0a3ffa1de96d1a89ca0ac26fca7ea18a749ef4
+  integration_test: 252f60fa39af5e17c3aa9899d35d908a0721b573
   SQLite.swift: 4fc2be46c36392e3b87afe6fe7f1801c1daa07ef
 
 PODFILE CHECKSUM: 819463e6a0290f5a72f145ba7cde16e8b6ef0796
 
-COCOAPODS: 1.15.2
+COCOAPODS: 1.16.2

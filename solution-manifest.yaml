@@ -1,0 +1,6 @@
+id: SO0333
+name: clickstream-analytics-on-aws-flutter-sdk
+version: v0.5.2
+cloudformation_templates: []
+build_environment:
+  build_image: 'aws/codebuild/standard:7.0'

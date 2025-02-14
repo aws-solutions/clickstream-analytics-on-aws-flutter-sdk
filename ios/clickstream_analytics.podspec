@@ -4,12 +4,12 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'clickstream_analytics'
-  s.version          = '0.5.1'
+  s.version          = '0.5.2'
   s.summary          = 'clickstream flutter SDK'
   s.description      = <<-DESC
 clickstream flutter SDK
                        DESC
-  s.homepage         = 'https://github.com/awslabs/clickstream-flutter'
+  s.homepage         = 'https://github.com/aws-solutions/clickstream-analytics-on-aws-flutter-sdk'
   s.license          = { :file => '../LICENSE' }
   s.author           = { 'AWS GCR Solutions Team' => 'aws-gcr-solutions@amazon.com' }
   s.source           = { :path => '.' }
